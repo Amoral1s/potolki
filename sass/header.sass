@@ -1,0 +1,159 @@
+@import 'vars'
+@import 'reset'
+
+.button
+  padding: 20px 30px
+  background-color: $accent
+  color: #fff
+  font-size: 16px
+  font-weight: 500
+  cursor: pointer
+  max-width: max-content
+  display: flex
+  justify-content: center
+  align-items: center
+  &:hover
+    background-color:  $main
+
+
+.header
+  &-bot
+    padding: 25px 0
+    .container
+      display: flex
+      justify-content: space-between
+      align-items: center
+    &-link
+      width: max-content
+      display: flex
+      flex-direction: column
+      align-items: flex-end
+      a:first-child
+        font-weight: 700
+        font-size: 18px
+      a:last-child
+        font-size: 15px
+        color: $main
+        &:hover
+          color: $accent
+    &-menu
+      ul
+        display: flex
+        align-items: center
+        justify-content: center
+        li
+          margin: 0 15px
+          position: relative
+          a
+            font-weight: 500
+            position: relative
+            padding: 5px 0
+          .menu
+            display: none
+            align-items: flex-start
+            justify-content: center
+            position: absolute
+            top: calc(100%)
+            left: 0
+            background: #fff
+            padding: 35px 60px
+            z-index: 10
+            width: max-content
+            &-flex
+              display: flex
+              justify-content: center
+              align-items: flex-start
+            &-text
+              font-size: 20px
+              color: $main
+              margin-bottom: 25px
+              font-weight: 700
+            &-wrap
+              display: flex
+              flex-direction: column
+              align-items: flex-start
+              margin-right: 90px
+              &:last-child
+                margin-right: 0
+              ul
+                display: flex
+                flex-direction: column
+                align-items: flex-start
+                li
+                  margin: 0
+                  margin-bottom: 10px
+                  a
+                    font-weight: 400
+
+  &-top
+    background-color: $main
+    padding: 8px 0 
+    .container
+      display: flex
+      justify-content: space-between
+      align-items: center
+      color: #fff
+    .text
+      font-size: 14px
+    .place
+      position: relative
+      padding-left: 20px
+      cursor: pointer
+      &:hover
+        color: $accent
+      &::after
+        position: absolute
+        content: ''
+        height: 12px
+        width: 12px
+        background-image: url(../img/icons/map.svg)
+        background-repeat: no-repeat
+        background-size: contain
+        background-position: center
+        top: 50%
+        transform: translateY(-50%)
+        left: 0
+
+
+
+.offer
+  background-image: url(../img/index.jpg)
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: center
+  padding-top: 200px
+  padding-bottom: 180px
+  .container
+    display: flex
+    flex-direction: column
+  &-title
+    background-color: #fff
+    padding: 25px 30px
+    position: relative
+    max-width: 710px
+    margin-bottom: 35px
+    &-white
+      color: $main
+      font-size: 48px
+      max-width: 700px
+    &-blue
+      background-color: $main
+      color: #fff
+      position: absolute
+      right: -400px
+      top: -40px
+      transform: skew(-35deg)
+      max-width: 500px
+      padding: 5px 0
+      padding-left: 60px
+      span
+        display: block
+        transform: skew(35deg)
+        font-size: 36px
+        color: #fff
+
+
+@import "header/_media1200"
+@import "header/_media992"
+@import "header/_media768"
+@import "header/_media578"
