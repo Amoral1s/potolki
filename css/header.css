@@ -935,8 +935,11 @@ input[type="range"]::-moz-range-track {
     padding-bottom: 20px;
     bottom: 0;
     padding-left: 0;
+    padding-bottom: 60px;
     left: 0px;
     padding-left: 25px;
+    padding-right: 25px;
+    text-align: center;
     -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
             box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
   }

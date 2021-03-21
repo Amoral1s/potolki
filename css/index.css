@@ -1281,6 +1281,28 @@ input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-i
     max-width: -webkit-calc(100% - 30px);
     max-width: calc(100% - 30px);
   }
+  .calc {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .features-wrap {
+    margin-top: 30px;
+  }
+  .features {
+    padding-bottom: 30px;
+  }
+  .gallery, .desc {
+    padding-bottom: 50px;
+  }
+  .feed {
+    padding-top: 50px;
+  }
+  .news, .desc {
+    padding-top: 30px;
+  }
+  .footer {
+    padding-top: 50px;
+  }
 }
 
 @media (max-width: 768px) {
