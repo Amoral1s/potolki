@@ -31,6 +31,10 @@ $(document).ready(function ($) {
     $('.call-size').on('click', function () { 
         $('.popup-size').fadeIn(200);
         $('.overlay').fadeIn(200);
+        
+        $('body').find(".lazy-img").each(function() {   
+            $(this).attr("src",$(this).attr("data-src"));
+        });
      });
 
   
