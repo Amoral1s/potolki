@@ -14,9 +14,14 @@
   align-items: center
   &:hover
     background-color:  $main
-
+.title
+  font-size: 36px 
+  margin-bottom: 40px
+  color: #1F1F1F
 
 .header
+  .burger
+    display: none
   &-bot
     padding: 25px 0
     .container
@@ -28,10 +33,11 @@
       display: flex
       flex-direction: column
       align-items: flex-end
-      a:first-child
-        font-weight: 700
-        font-size: 18px
-      a:last-child
+      span
+        a
+          font-weight: 700
+          font-size: 18px
+      a
         font-size: 15px
         color: $main
         &:hover
@@ -113,11 +119,25 @@
         top: 50%
         transform: translateY(-50%)
         left: 0
-
+.slide-menu
+  position: relative
+  padding-right: 12px
+  &::after
+    position: absolute
+    content: ''
+    height: 8px
+    width: 8px
+    right: 0
+    top: 50%
+    transform: translateY(-50%)
+    background-image: url(../img/icons/menu-arr.svg)
+    background-size: contain
+    background-position: center
+    background-repeat: no-repeat
 
 
 .offer
-  background-image: url(../img/index.jpg)
+  background-image: url(../img/index-mob.jpg)
   background-repeat: no-repeat
   background-size: cover
   background-position: center
@@ -151,6 +171,11 @@
         transform: skew(35deg)
         font-size: 36px
         color: #fff
+
+@media (min-width: 578px) 
+  .offer
+    background-image: url(../img/index.jpg)
+
 
 
 @import "header/_media1200"

@@ -1,5 +1,69 @@
 @import "vars"
 
+.calc
+  display: flex
+  justify-content: space-between
+  align-items: flex-start
+  &-right
+    background-color: $main
+    padding: 70px 60px
+    width: 45%
+    .title
+      color: #fff
+    p
+      color: #fff
+      margin-bottom: 40px
+      font-size: 18px
+  &-left
+    padding-top: 45px
+    width: 44%
+    &-section
+      display: flex
+      align-items: center
+      justify-content: flex-start
+      margin-bottom: 30px
+      label
+        display: flex
+        align-items: center
+        justify-content: flex-start
+        margin-right: 20px
+        font-size: 16px
+        font-weight: 500
+        color: $main
+        cursor: pointer
+        &:hover
+          color: $accent
+        input
+          margin-top: 0
+          margin-right: 10px
+    .spb
+      display: flex
+      align-items: center
+      justify-content: space-between
+      margin-top: -10px
+      .calc-result
+        color: $dark
+        font-size: 32px
+        font-weight: 700
+      .calc-cost
+        color: $main
+        font-size: 32px
+        font-weight: 700
+  &-num
+    display: flex
+    align-items: center
+    justify-content: flex-start
+    margin-right: 50px
+    span
+      margin-right: 20px
+      font-weight: 500
+      font-size: 16px
+    &-wrap
+      display: flex
+      justify-content: flex-start
+      align-items: center
+      border: 1px solid $light
+      width: max-content
 
 	
 @import "main/_media1200"

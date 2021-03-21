@@ -1,1 +1,149 @@
-/* No CSS */
+.calc {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.calc-right {
+  background-color: #2A2976;
+  padding: 70px 60px;
+  width: 45%;
+}
+
+.calc-right .title {
+  color: #fff;
+}
+
+.calc-right p {
+  color: #fff;
+  margin-bottom: 40px;
+  font-size: 18px;
+}
+
+.calc-left {
+  padding-top: 45px;
+  width: 44%;
+}
+
+.calc-left-section {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin-bottom: 30px;
+}
+
+.calc-left-section label {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin-right: 20px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #2A2976;
+  cursor: pointer;
+}
+
+.calc-left-section label:hover {
+  color: #EE2C2C;
+}
+
+.calc-left-section label input {
+  margin-top: 0;
+  margin-right: 10px;
+}
+
+.calc-left .spb {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: -10px;
+}
+
+.calc-left .spb .calc-result {
+  color: #1F1F1F;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.calc-left .spb .calc-cost {
+  color: #2A2976;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.calc-num {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin-right: 50px;
+}
+
+.calc-num span {
+  margin-right: 20px;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.calc-num-wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid #D0D0D0;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
