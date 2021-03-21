@@ -1,0 +1,85 @@
+@media (max-width: 992px)
+  .title
+    font-size: 22px
+  .calc
+    flex-direction: column
+    align-items: center
+    &-left
+      width: 100%
+    &-right
+      width: 100%
+  .gallery
+    &-wrap
+      &-item
+        width: calc(33% - 20px)
+        &:nth-child(8),
+        &:nth-child(7)
+          display: none
+  .actions-wrap:before
+    width: 100%
+  .feed-wrap-item
+    width: calc(50% - 10px)
+    &:nth-child(3)
+      display: none
+  .news
+    &-wrap
+      flex-wrap: wrap
+      align-items: stretch
+      &-item
+        width: calc(50% - 10px)
+        margin-bottom: 30px
+  .footer
+    &-wrap
+      flex-direction: column
+      align-items: center
+      &-bottom
+        &-left
+          display: none
+        &-right
+          width: 100%
+      &-left
+        width: 100%
+        margin-bottom: 30px
+      &-right
+        width: 100%
+  .popup-closes
+    max-width: calc(100% - 30px)
+  #thx
+    max-width: calc(100% - 30px)
+  .popup-gallery
+    max-width: calc(100% - 30px)
+  .calc
+    padding-top: 50px
+    padding-bottom: 50px
+  .gallery, .desc
+    padding-bottom: 50px
+  .feed
+    padding-top: 50px
+  .news, .desc
+    padding-top: 30px
+  .footer
+    padding-top: 50px
+  .page-calc
+    padding-bottom: 50px
+    padding-top: 30px
+  .page-desc
+    padding-top: 50px
+    padding-bottom: 0
+  .page-features
+    padding-top: 0
+    padding-bottom: 30px
+  .page-gallery
+    padding-bottom: 0
+  .vars
+    &-wrap
+      flex-wrap: wrap
+      justify-content: space-between
+      &-item
+        width: calc(50% - 10px)
+        margin-right: 0
+        h4
+          font-size: 20px
+        &-row
+          font-size: 16px
+        &:nth-child(3n+3)
+          margin-right: 0

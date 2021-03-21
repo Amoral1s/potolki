@@ -696,6 +696,13 @@ input[type="range"]::-moz-range-track {
   .offer {
     background-image: url(../img/index.jpg);
   }
+  .offer-page {
+    background-image: url(../img/page.jpg);
+    background-position: center center;
+  }
+  .offer-page .offer-title {
+    max-width: 900px;
+  }
 }
 
 @media (max-width: 1200px) {

@@ -1,0 +1,50 @@
+@media (max-width: 768px)
+  .gallery
+    &-wrap
+      &-item
+        width: calc(50% - 20px)
+        &:nth-child(6),
+        &:nth-child(5)
+          display: none
+  .actions
+    &-wrap
+      background-color: $main
+      &::after, 
+      &::before
+        display: none
+  .popup-closes
+    padding: 30px
+    .popup
+      &-wrap
+        &-left
+          display: none
+        &-right
+          width: 100%
+          form
+            b
+              font-size: 22px
+              margin-bottom: 20px
+              padding-right: 20px
+            p, label
+              font-size: 14px
+            p
+              margin-bottom: 20px
+            small
+              font-size: 12px
+  .thx
+    padding: 60px 30px
+    &-left
+      display: none
+    &-right
+      width: 100%
+      b, p
+        display: block
+        width: 100%
+        text-align: center
+  .vars
+    &-wrap
+      flex-wrap: wrap
+      justify-content: space-between
+      &-item
+        width: 100%
+        margin-right: 0
